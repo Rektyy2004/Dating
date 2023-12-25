@@ -1,12 +1,10 @@
-function nextPage()
-{
-    window.location.href="Dating-Yes.html"
+function nextPage() {
+    window.location.href = "Dating-Yes.html";
 }
 
-function moveButton()
-{
-    var x=Math.random() * ( window.innerWidth - document.getElementById('noButton').offsetWidth);
-    var y= Math.random() * ( window.innerHeight - document.getElementById('noButton').offsetHeight);
-    document.getElementById('noButton').style.left=`${x}px`;
-    document.getElementById('noButton').style.top=`${y}px`;
+function moveButton() {
+    var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+    var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+    document.getElementById('noButton').style.left = `${x}px`;
+    document.getElementById('noButton').style.top = `${y}px`;
 }
